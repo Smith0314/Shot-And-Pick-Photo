@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048934251AD12739008E70BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048934241AD12739008E70BC /* AppDelegate.swift */; };
+		048934271AD12739008E70BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048934261AD12739008E70BC /* ViewController.swift */; };
+		0489342A1AD12739008E70BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048934281AD12739008E70BC /* Main.storyboard */; };
+		0489342C1AD12739008E70BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489342B1AD12739008E70BC /* Images.xcassets */; };
+		0489342F1AD12739008E70BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489342D1AD12739008E70BC /* LaunchScreen.xib */; };
+		0489343B1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343A1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048934351AD12739008E70BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048934171AD12739008E70BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0489341E1AD12739008E70BC;
+			remoteInfo = "Shot-And-Pick-Photo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0489341F1AD12739008E70BC /* Shot-And-Pick-Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shot-And-Pick-Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048934231AD12739008E70BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048934241AD12739008E70BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048934261AD12739008E70BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048934291AD12739008E70BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0489342B1AD12739008E70BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0489342E1AD12739008E70BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		048934341AD12739008E70BC /* Shot-And-Pick-PhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shot-And-Pick-PhotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048934391AD12739008E70BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0489343A1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot_And_Pick_PhotoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489341C1AD12739008E70BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048934311AD12739008E70BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048934161AD12739008E70BC = {
+			isa = PBXGroup;
+			children = (
+				048934211AD12739008E70BC /* Shot-And-Pick-Photo */,
+				048934371AD12739008E70BC /* Shot-And-Pick-PhotoTests */,
+				048934201AD12739008E70BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048934201AD12739008E70BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0489341F1AD12739008E70BC /* Shot-And-Pick-Photo.app */,
+				048934341AD12739008E70BC /* Shot-And-Pick-PhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048934211AD12739008E70BC /* Shot-And-Pick-Photo */ = {
+			isa = PBXGroup;
+			children = (
+				048934241AD12739008E70BC /* AppDelegate.swift */,
+				048934261AD12739008E70BC /* ViewController.swift */,
+				048934281AD12739008E70BC /* Main.storyboard */,
+				0489342B1AD12739008E70BC /* Images.xcassets */,
+				0489342D1AD12739008E70BC /* LaunchScreen.xib */,
+				048934221AD12739008E70BC /* Supporting Files */,
+			);
+			path = "Shot-And-Pick-Photo";
+			sourceTree = "<group>";
+		};
+		048934221AD12739008E70BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048934231AD12739008E70BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048934371AD12739008E70BC /* Shot-And-Pick-PhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0489343A1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift */,
+				048934381AD12739008E70BC /* Supporting Files */,
+			);
+			path = "Shot-And-Pick-PhotoTests";
+			sourceTree = "<group>";
+		};
+		048934381AD12739008E70BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048934391AD12739008E70BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0489341E1AD12739008E70BC /* Shot-And-Pick-Photo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489343E1AD12739008E70BC /* Build configuration list for PBXNativeTarget "Shot-And-Pick-Photo" */;
+			buildPhases = (
+				0489341B1AD12739008E70BC /* Sources */,
+				0489341C1AD12739008E70BC /* Frameworks */,
+				0489341D1AD12739008E70BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shot-And-Pick-Photo";
+			productName = "Shot-And-Pick-Photo";
+			productReference = 0489341F1AD12739008E70BC /* Shot-And-Pick-Photo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048934331AD12739008E70BC /* Shot-And-Pick-PhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048934411AD12739008E70BC /* Build configuration list for PBXNativeTarget "Shot-And-Pick-PhotoTests" */;
+			buildPhases = (
+				048934301AD12739008E70BC /* Sources */,
+				048934311AD12739008E70BC /* Frameworks */,
+				048934321AD12739008E70BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048934361AD12739008E70BC /* PBXTargetDependency */,
+			);
+			name = "Shot-And-Pick-PhotoTests";
+			productName = "Shot-And-Pick-PhotoTests";
+			productReference = 048934341AD12739008E70BC /* Shot-And-Pick-PhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048934171AD12739008E70BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Smith-Lab";
+				TargetAttributes = {
+					0489341E1AD12739008E70BC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					048934331AD12739008E70BC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0489341E1AD12739008E70BC;
+					};
+				};
+			};
+			buildConfigurationList = 0489341A1AD12739008E70BC /* Build configuration list for PBXProject "Shot-And-Pick-Photo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048934161AD12739008E70BC;
+			productRefGroup = 048934201AD12739008E70BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0489341E1AD12739008E70BC /* Shot-And-Pick-Photo */,
+				048934331AD12739008E70BC /* Shot-And-Pick-PhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0489341D1AD12739008E70BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489342A1AD12739008E70BC /* Main.storyboard in Resources */,
+				0489342F1AD12739008E70BC /* LaunchScreen.xib in Resources */,
+				0489342C1AD12739008E70BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048934321AD12739008E70BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489341B1AD12739008E70BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048934271AD12739008E70BC /* ViewController.swift in Sources */,
+				048934251AD12739008E70BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048934301AD12739008E70BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489343B1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048934361AD12739008E70BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0489341E1AD12739008E70BC /* Shot-And-Pick-Photo */;
+			targetProxy = 048934351AD12739008E70BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048934281AD12739008E70BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048934291AD12739008E70BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0489342D1AD12739008E70BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489342E1AD12739008E70BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0489343C1AD12739008E70BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0489343D1AD12739008E70BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0489343F1AD12739008E70BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shot-And-Pick-Photo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048934401AD12739008E70BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shot-And-Pick-Photo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048934421AD12739008E70BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shot-And-Pick-PhotoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shot-And-Pick-Photo.app/Shot-And-Pick-Photo";
+			};
+			name = Debug;
+		};
+		048934431AD12739008E70BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shot-And-Pick-PhotoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shot-And-Pick-Photo.app/Shot-And-Pick-Photo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0489341A1AD12739008E70BC /* Build configuration list for PBXProject "Shot-And-Pick-Photo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489343C1AD12739008E70BC /* Debug */,
+				0489343D1AD12739008E70BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489343E1AD12739008E70BC /* Build configuration list for PBXNativeTarget "Shot-And-Pick-Photo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489343F1AD12739008E70BC /* Debug */,
+				048934401AD12739008E70BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048934411AD12739008E70BC /* Build configuration list for PBXNativeTarget "Shot-And-Pick-PhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048934421AD12739008E70BC /* Debug */,
+				048934431AD12739008E70BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048934171AD12739008E70BC /* Project object */;
+}
