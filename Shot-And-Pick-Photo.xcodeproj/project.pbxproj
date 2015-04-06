@@ -13,6 +13,8 @@
 		0489342C1AD12739008E70BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489342B1AD12739008E70BC /* Images.xcassets */; };
 		0489342F1AD12739008E70BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489342D1AD12739008E70BC /* LaunchScreen.xib */; };
 		0489343B1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343A1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift */; };
+		048934451AD264DD008E70BC /* smith-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 048934441AD264DD008E70BC /* smith-font.ttf */; };
+		04E459D11AD27A1A00B68CAA /* screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E459D01AD27A1A00B68CAA /* screenshot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		048934341AD12739008E70BC /* Shot-And-Pick-PhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shot-And-Pick-PhotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048934391AD12739008E70BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0489343A1AD12739008E70BC /* Shot_And_Pick_PhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot_And_Pick_PhotoTests.swift; sourceTree = "<group>"; };
+		048934441AD264DD008E70BC /* smith-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smith-font.ttf"; sourceTree = "<group>"; };
+		04E459D01AD27A1A00B68CAA /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				048934211AD12739008E70BC /* Shot-And-Pick-Photo */,
 				048934371AD12739008E70BC /* Shot-And-Pick-PhotoTests */,
 				048934201AD12739008E70BC /* Products */,
+				04E459CF1AD27A1A00B68CAA /* screenshot */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +95,7 @@
 		048934221AD12739008E70BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				048934441AD264DD008E70BC /* smith-font.ttf */,
 				048934231AD12739008E70BC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +116,14 @@
 				048934391AD12739008E70BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E459CF1AD27A1A00B68CAA /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				04E459D01AD27A1A00B68CAA /* screenshot.jpg */,
+			);
+			path = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,8 @@
 				0489342A1AD12739008E70BC /* Main.storyboard in Resources */,
 				0489342F1AD12739008E70BC /* LaunchScreen.xib in Resources */,
 				0489342C1AD12739008E70BC /* Images.xcassets in Resources */,
+				048934451AD264DD008E70BC /* smith-font.ttf in Resources */,
+				04E459D11AD27A1A00B68CAA /* screenshot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -405,6 +421,7 @@
 				048934401AD12739008E70BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048934411AD12739008E70BC /* Build configuration list for PBXNativeTarget "Shot-And-Pick-PhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				048934431AD12739008E70BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
